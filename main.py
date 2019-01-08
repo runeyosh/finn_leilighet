@@ -6,7 +6,7 @@ import calendar
 import requests
 #import simplejson, urllib
 
-apikey = 'AIzaSyA13UP_rzeTIAITKqHYHStM3VK1-hIqH8o'
+apikey = '' # insert your google api key here
 
 no_pages = 1
 
