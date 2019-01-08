@@ -103,7 +103,7 @@ for hit in filtered_props:
 
 print('displayed ' + str(len(filtered_props)) + '/' + str(len(distance_props)))
 
-# https://maps.googleapis.com/maps/api/distancematrix/json?origins=Bentsebrugata+18+B,+Oslo&destinations=Lilleakerveien+4,+Oslo,+Norway&mode=transit&departure_time=1455260400&language=en-EN&sensor=false&key=AIzaSyA13UP_rzeTIAITKqHYHStM3VK1-hIqH8o
+# https://maps.googleapis.com/maps/api/distancematrix/json?origins=Bentsebrugata+18+B,+Oslo&destinations=Lilleakerveien+4,+Oslo,+Norway&mode=transit&departure_time=1455260400&language=en-EN&sensor=false&key=******
 # url = "http://maps.googleapis.com/maps/api/distancematrix/json?origins={0}&destinations={1}&mode=driving&language=en-EN&sensor=false".format(str(orig_coord),str(dest_coord))
 # result= simplejson.load(urllib.urlopen(url))
 # driving_time = result['rows'][0]['elements'][0]['duration']['value']
